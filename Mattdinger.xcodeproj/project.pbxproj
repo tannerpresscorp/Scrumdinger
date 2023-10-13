@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2A64876D2AC2067900FD9903 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64876C2AC2067900FD9903 /* Theme.swift */; };
+		2A8823A02AD991EA0034B0B7 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A88239F2AD991EA0034B0B7 /* ScrumsView.swift */; };
+		2A8CC29C2AD7F58100A4DA29 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC29B2AD7F58100A4DA29 /* DailyScrum.swift */; };
+		2A8CC29E2AD7F64100A4DA29 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC29D2AD7F64100A4DA29 /* CardView.swift */; };
+		2A8CC2A02AD7F8C800A4DA29 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC29F2AD7F8C800A4DA29 /* TrailingIconLabelStyle.swift */; };
 		AAAE8020294793AB0099DABC /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */; };
 		AAAE8022294793AB0099DABC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE8021294793AB0099DABC /* MeetingView.swift */; };
 		AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8023294793AB0099DABC /* Assets.xcassets */; };
@@ -16,7 +20,11 @@
 
 /* Begin PBXFileReference section */
 		2A64876C2AC2067900FD9903 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		AAAE801C294793AB0099DABC /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A88239F2AD991EA0034B0B7 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		2A8CC29B2AD7F58100A4DA29 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		2A8CC29D2AD7F64100A4DA29 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2A8CC29F2AD7F8C800A4DA29 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		AAAE801C294793AB0099DABC /* Mattdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mattdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		AAAE8021294793AB0099DABC /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		AAAE8023294793AB0099DABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +49,10 @@
 			isa = PBXGroup;
 			children = (
 				2A64876C2AC2067900FD9903 /* Theme.swift */,
+				2A8CC29B2AD7F58100A4DA29 /* DailyScrum.swift */,
+				2A8CC29D2AD7F64100A4DA29 /* CardView.swift */,
+				2A8CC29F2AD7F8C800A4DA29 /* TrailingIconLabelStyle.swift */,
+				2A88239F2AD991EA0034B0B7 /* ScrumsView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -59,7 +71,7 @@
 		AAAE801D294793AB0099DABC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAAE801C294793AB0099DABC /* Scrumdinger.app */,
+				AAAE801C294793AB0099DABC /* Mattdinger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAAE801B294793AB0099DABC /* Scrumdinger */ = {
+		AAAE801B294793AB0099DABC /* Mattdinger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAAE802A294793AB0099DABC /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
+			buildConfigurationList = AAAE802A294793AB0099DABC /* Build configuration list for PBXNativeTarget "Mattdinger" */;
 			buildPhases = (
 				AAAE8018294793AB0099DABC /* Sources */,
 				AAAE8019294793AB0099DABC /* Frameworks */,
@@ -107,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = Scrumdinger;
+			name = Mattdinger;
 			productName = Scrumdinger;
-			productReference = AAAE801C294793AB0099DABC /* Scrumdinger.app */;
+			productReference = AAAE801C294793AB0099DABC /* Mattdinger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AAAE8017294793AB0099DABC /* Build configuration list for PBXProject "Scrumdinger" */;
+			buildConfigurationList = AAAE8017294793AB0099DABC /* Build configuration list for PBXProject "Mattdinger" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAAE801B294793AB0099DABC /* Scrumdinger */,
+				AAAE801B294793AB0099DABC /* Mattdinger */,
 			);
 		};
 /* End PBXProject section */
@@ -162,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8CC29C2AD7F58100A4DA29 /* DailyScrum.swift in Sources */,
+				2A8CC2A02AD7F8C800A4DA29 /* TrailingIconLabelStyle.swift in Sources */,
 				2A64876D2AC2067900FD9903 /* Theme.swift in Sources */,
+				2A8823A02AD991EA0034B0B7 /* ScrumsView.swift in Sources */,
 				AAAE8022294793AB0099DABC /* MeetingView.swift in Sources */,
 				AAAE8020294793AB0099DABC /* ScrumdingerApp.swift in Sources */,
+				2A8CC29E2AD7F64100A4DA29 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tannerpress.iMatthewTannerScrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tannerpress.iMatthewTanner.Mattdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tannerpress.iMatthewTannerScrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tannerpress.iMatthewTanner.Mattdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAAE8017294793AB0099DABC /* Build configuration list for PBXProject "Scrumdinger" */ = {
+		AAAE8017294793AB0099DABC /* Build configuration list for PBXProject "Mattdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAAE8028294793AB0099DABC /* Debug */,
@@ -361,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAAE802A294793AB0099DABC /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
+		AAAE802A294793AB0099DABC /* Build configuration list for PBXNativeTarget "Mattdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAAE802B294793AB0099DABC /* Debug */,
