@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "4AB35AC7-FB7E-418F-A138-E94256B0BA72",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "language" : "en",
+    "region" : "US",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Mattdinger.xcodeproj",
+      "identifier" : "AAAE801B294793AB0099DABC",
+      "name" : "Mattdinger"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
