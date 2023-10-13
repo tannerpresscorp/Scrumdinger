@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A64876D2AC2067900FD9903 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64876C2AC2067900FD9903 /* Theme.swift */; };
 		2A8823A02AD991EA0034B0B7 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A88239F2AD991EA0034B0B7 /* ScrumsView.swift */; };
+		2A8823A32AD9A2F70034B0B7 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 2A8823A22AD9A2F70034B0B7 /* Algorithms */; };
 		2A8CC29C2AD7F58100A4DA29 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC29B2AD7F58100A4DA29 /* DailyScrum.swift */; };
 		2A8CC29E2AD7F64100A4DA29 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC29D2AD7F64100A4DA29 /* CardView.swift */; };
 		2A8CC2A02AD7F8C800A4DA29 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC29F2AD7F8C800A4DA29 /* TrailingIconLabelStyle.swift */; };
@@ -39,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8823A32AD9A2F70034B0B7 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,9 @@
 			dependencies = (
 			);
 			name = Mattdinger;
+			packageProductDependencies = (
+				2A8823A22AD9A2F70034B0B7 /* Algorithms */,
+			);
 			productName = Scrumdinger;
 			productReference = AAAE801C294793AB0099DABC /* Mattdinger.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +153,9 @@
 				Base,
 			);
 			mainGroup = AAAE8013294793AB0099DABC;
+			packageReferences = (
+				2A8823A12AD9A2F70034B0B7 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = AAAE801D294793AB0099DABC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -246,6 +254,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -301,6 +310,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -387,6 +397,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A8823A12AD9A2F70034B0B7 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A8823A22AD9A2F70034B0B7 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A8823A12AD9A2F70034B0B7 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAAE8014294793AB0099DABC /* Project object */;
 }
